@@ -59,7 +59,7 @@ Miss Scarlet: "Thank you for clearing my name."
 Colonel Mustard: "Well, there's one final clue. At the time of Pitty-Pat's unfortunate demise, I was in the Billard Room. I was playing snooker with Mr Green and Professor Plum."
 Professor Plum: "You were? Oh, yes, quite right, so you were. It slipped my mind. Well, then, I think I know who killed the dirty birdy!"
 
-ANSWER
+SOLUTION
 Miss Scarlet in the Conservatory with the Lead Pipe.
 Only three suspects had appropriate weapons - Professor Plum, Mr Green, and Miss Scarlet. Professor Plum and Mr Green were playing snooker at the time of the murder. That leaves only Miss Scarlet. While one of the two suspects in the Conservatory was not Miss Scarlet, the other one was!
 
@@ -74,3 +74,18 @@ Miss Scarlet: "I'll be in the Library when you're done."
 --There was the secret door that led to the secret passageway to the Kitchen. The door was locked. But Professor Plum stood hidden behind it. He had overheard Mr Boddy's entire conversation with Miss Scarlet--
 --Mr Green happened to press his face against the Study's window to take a look of what is going on--
 --And, of course, Mrs White wasn't really asleep. As soon as Mr Boddy turned his back, she opened her eyes slightly to form narrow slits. She watched as her employer silently turned the dial of the safe--
+
+INTO THE LATE NIGHT
+A masked figure, armed with the Candlestick, moved stealthily down the carpeted stairs of the mansion. Just then...
+Mr Green: "Three sheep! Four sheep! And if I catch any of you sheep, I'll cook you for supper! Five, six sheep! Why can't I sleep! Seven sheep!"
+After passing Mr Green, the masked figure continued quietly downward. Down to the first floor, into the Kitchen, and through the secret passgeway into the Study. The thief carefully removed the painting covering the safe. Knowing the combination by heart, the masked figure easily opened the safe's massive door and started putting the diamonds into another bag.
+
+NEXT MORNING
+Miss Scarlet: "My diamonds! They're gone! You're all suspects. All of you."
+Mrs Peacock: "Including you."
+Miss Scarlet: "Me? Why would I steal my own diamonds?"
+Mrs Peacock: "To collect one million dollars worth of insurance. This fell out of your overnight bag. I've been meaning to give this insurance form back to you all weekend."
+
+SOLUTION
+Mrs White in the Study with the Candlestick.
+Only two suspects could have seen Mr Boddy open the safe and, thus, could have memorised the combination: Mrs White and Mr Green. Mr Green was busy counting sheep on the stairway. That leave Mrs White.
