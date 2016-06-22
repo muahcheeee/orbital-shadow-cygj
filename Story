@@ -31,7 +31,7 @@ Stories:
 
 1. WHO KILLED PITTY-PAT?
 BACKGROUND
-Mr Boddy's beloved pet parrot was found dead in the conservatory, discovered by Mrs White.
+Mr Boddy's beloved pet parrot Pitty-Pat was found dead in the conservatory, discovered by Mrs White. One of the six guests is the culprit. Find out who it is.
 
 Mrs White: "The window was closed, My Boddy. I guess poor Pitty-Pat flew in to the window and ... and now he's, he's - dead!"
 
@@ -144,3 +144,23 @@ As luck would have it, no two rooms were checked twice.
 
 SOLUTION
 Mrs White is in the Ball Room. By process of elimination, Professor Plum checked the Study as no two rooms were checked twice. The Kitchen was home base which left the Ball Room unchecked.
+
+
+6. WHO STARTED THE FIRE?
+BACKGROUND
+Mr Boddy's mansion was on fire again. One of the three guests, Professor Plum, Miss Scarlet and Mrs Peacock, is the culprit. To solve this mystery, you'll need to determine which statements are true and which statements are false. Mark all of the statements T for True or F for False. The culprit will be the only person who said three lies (i.e three F out of the five statements).
+
+Here are the statements:
+#1 "I put the candle out before I went to sleep," said Professor Plum.
+#2 "The fire was out before I went to be bed," said Miss Scarlett.
+#3 "I turned the stove off before the fire started," said Mrs White.
+#4 "Mrs White, your statement is a lie," Professor Plum accused.
+#5 "No, Professor, your first statement is a lie," said Miss Scarlett.
+
+SOLUTION
+Miss Scarlet.
+If Professor Plum or Mrs White started the fire, there would be only two lies among the five statements. If it's Miss Scarlett, her alibi is a lie. So is the statement that Mrs White is a liar. And so is the statement that Professor Plum is a liar. There is then a total of three lies.
+
+
+7. WHERE ARE THE ROLLS OF FILM?
+BACKGROUND
