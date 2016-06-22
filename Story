@@ -110,3 +110,37 @@ Colonel Mustard: "I've already searched the Library. It's not there!"
 SOLUTION
 The Hall.
 Professor Plum wrapped the gift in the Billard Room. Then then walked to the Conservatory, the Lounge, the Library, the Hall, the Ball Room, and the Dining Room. Plum remembered still having the gift with him in the Library. So we can rule out the rooms he was in before the Library: the Billard Room, the Conservatory, and the Lounge. Mrs White and Colonel Mustard checked the Ball Room and Library. And Professor Plum came into the Dining Room empty-handed. That leaves only the Hall.
+
+
+4. THE GHOST OF MRS BODDY
+BACKGROUND
+My Boddy had gathered all of the guests in the Dining Room for a ritual to summon his late wife. The ritual required everyone to hold hands together in order to communicate with Mrs Boddy. Mrs Boddy would answer by making a rapping sound under the table. One rap for yes. two raps for no. At the end, Mr Boddy was pleased to have spoken to his late wife and finally found peace through the process.. or was it just a hoax? Find out which of the suspects was the fake ghost. (Hint: It has to be someone whose hands are free to use their weapons to making the rapping sound!).
+
+The guests were all carrying their weapons throughout the ritual.
+
+Professor Plum: "I had the Knife with me as I had forgotten to leave it in my room before coming down. I was holding on to Mrs White's and Miss Scarlet's hands until I let go of the latter's for a brief moment to scratch my foot."
+Mr Green: "I had the Lead Pipe with me. I was holding on to Colonel Mustard's hand and that fellow kept complaining that I was holding onto it so tightly that he challenged me to a duel. Pmft! Oh, and I was holding Mr Boddy's hand too."
+Colonel Mustard: "Yeah, I had the Wrench. Stupid Mr Green and his grip!"
+Mrs Peacock: "I brought along the Rope just in case we needed it. And I was holding onto Colonel Mustard's hand. Such a big hand he has."
+Miss Scarlet: "Don't ask me why I had the Revolver. I am just cautious like that. But I felt safe having Mr Boddy beside me and holding my hand."
+Mrs White: "I brought the Candlestick as I was afraid the Dining Room's lights will blow again. Professor Plum has really sweaty palms!"
+
+SOLUTION
+Mrs White.
+Only Mrs White and Mrs Peacock kept a hand under the table. But Mrs Peacock had the rope. She couldn't have used the rope to make the crisp rapping noises the group heard.
+
+
+5. HIDE AND SEEK
+BACKGROUND
+The guests are playing a game of Hide-And-Seek in the mansion. The Kitchen was their home base and no one was allowed to hide in there, leaving all other rooms as possible hiding spots. In the midst of their game, a fire broke out and the guests scrambled about to flee the mansion quickly. Mrs White was nowhere to be found and the guests only have time to go to ONE of the rooms to find her. They started telling one another the rooms they've checked before leaving the mansion. Which room is Mrs White in?
+
+Mr Green: "I checked the Library. I didn't see Mrs White in there!"
+Miss Scarlet: "I checked the Billard Room and the Conservatory. Neither was she in those two rooms."
+Mrs Peacock: "I checked the Hall and the Lounge. She's nowhere to be seen there!"
+Professor Plum: "Uh, I checked either the Dining Room, the Study. or the Conservatory. I can't remember which."
+Colonel Mustard: "Seriously Plum! As I was dashing out, I managed to check the Dining Room and she wasn't in there."
+
+As luck would have it, no two rooms were checked twice.
+
+SOLUTION
+Mrs White is in the Ball Room. By process of elimination, Professor Plum checked the Study as no two rooms were checked twice. The Kitchen was home base which left the Ball Room unchecked.
