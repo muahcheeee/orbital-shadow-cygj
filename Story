@@ -239,4 +239,26 @@ Miss Scarlet - Revolver
 Mrs White - Wrench
 
 
-10. 
+10. WHO IS ON THE SECOND VIOLIN?
+BACKGROUND
+Mr Boddy had organised an afternoon concert with the rest of the guests. After the concert, Mr Boddy's million dollars violin, the Stradivarius was stolen by a mysterious old woman who was on the Second Violin. He did not invite the old woman at all and he noticed something amiss after thinking back about the concert. One of the regular guests was missing from the concert but he couldn't figure out who it was. Just as he was about to demystify the identity of the old woman, he found his invitation list for the day's party.
+
+NOTE ON WHOM I SHOULD INVITE TO MY MUSIC PARTY:
+First Violin - Me.
+Second Violin - Whom should I invite?
+First Viola - Any of the three women.
+Second Viola - Any of the three women.
+First Cello - Any of the three women.
+Second Cello - Miss Scarlet or Professor Plum.
+Piano - Not Professor Plum or Colonel Mustard.
+
+Meanwhile, the other guests had cornered the old woman by the badminton net.
+Mr Green: "Give us back Mr Boddy's fiddle, you old crone!"
+
+Who was the old woman?
+
+SOLUTION
+Colonel Mustard.
+The possible guests listed for the first viola and second viola and first cello are all women. That means that the secone cello player can't be a woman as well. Why? Because there are only three women on the list of six possible suspects. So it must be Professor Plum.
+The piano player is not Professor Plum or Colonel Mustard. It can't be a woman. So it must be Mr Green.
+That means that Colonel Mustard is the only missing guest.
