@@ -18,5 +18,5 @@ function processForm() {
         result = "Wrong!";
     }
     
-    alert(result);
+    document.getElementById("result").innerHTML = 'Correct!';
 }
