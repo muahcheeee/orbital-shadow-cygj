@@ -10,7 +10,7 @@ function processForm() {
         }
     }
 
-    if (tempType == "hall") {
+    if (tempType == 'hall') {
         result = "Correct!";
     }
     
