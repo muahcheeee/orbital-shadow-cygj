@@ -11,5 +11,5 @@ function processForm() {
         result = "Wrong!";
     }
     
-    document.tempForm.resultField.value = result;
+    document.ansForm.resultField.value = result;
 }
