@@ -1,23 +1,14 @@
 function processForm() {
     
-    var temperature = Number(document.tempForm.temp.value);
+    var ans = document.ansForm.temp.value;
     var tempType;
     var result;
 
-    for (var i=0; i < document.tempForm.choice.length; i++) {
-        
-        if (document.tempForm.choice[i].checked) {
-            tempType = document.tempForm.choice[i].value;
-        }
-    }
-
-    if (tempType == 'fahrenheit') {
-        result = temperature * 9/5 + 32;
+    if (ans == 'test') {
+        document.tempForm.resultField.value = "Correct!";
     }
     
     else {
-        result = (temperature -  32)  *  5/9;
+        document.tempForm.resultField.value = "Wrong!";
     }
-    
-    document.tempForm.resultField.value = result
 }
