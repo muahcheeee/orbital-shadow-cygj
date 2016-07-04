@@ -2,7 +2,6 @@ function processForm() {
     
     var ans = document.ansForm.temp.value;
     var tempType;
-    var result;
     
     for (var i=0; i < document.ansForm.choice.length; i++) {
         if (document.ansForm.choice[i].checked) {
@@ -11,12 +10,10 @@ function processForm() {
     }
 
     if (tempType == 'hall') {
-        result = "Correct!";
+        alert("Correct!");
     }
     
     else {
-        result = "Wrong!";
+        alert("Wrong!");
     }
-    
-    document.getElementById("result").innerHTML = 'Correct!';
 }
