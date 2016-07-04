@@ -1,14 +1,15 @@
 function processForm() {
     
     var ans = document.ansForm.temp.value;
-    var tempType;
     var result;
 
     if (ans == 'mr peng') {
-        document.tempForm.resultField.value = "Correct!";
+        result = "Correct!";
     }
     
     else {
-        document.tempForm.resultField.value = "Wrong!";
+        result = "Wrong!";
     }
+    
+    document.tempForm.resultField.value = result;
 }
