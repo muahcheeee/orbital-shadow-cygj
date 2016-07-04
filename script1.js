@@ -4,11 +4,11 @@ function processForm() {
     var result;
 
     if (ans == 'mr peng') {
-        result = "Correct!";
+        alert("Correct!");
     }
     
     else {
-        result = "Wrong!";
+        alert("Wrong!");
     }
     
     document.ansForm.resultField.value = result;
