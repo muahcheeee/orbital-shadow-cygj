@@ -4,13 +4,12 @@ function processForm() {
     var tempType;
 
     for (var i=0; i < document.ansForm.choice.length; i++) {
-        
         if (document.ansForm.choice[i].checked) {
             tempType = document.ansForm.choice[i].value;
         }
     }
 
-    if (tempType == 'hall') {
+    if (tempType == "hall") {
         alert("Correct!");
     }
     
