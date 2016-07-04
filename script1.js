@@ -4,7 +4,7 @@ function processForm() {
     var tempType;
     var result;
 
-    if (ans == 'test') {
+    if (ans == 'mr peng') {
         document.tempForm.resultField.value = "Correct!";
     }
     
