@@ -1,6 +1,5 @@
 function processForm() {
     
-    var ans = document.ansForm.temp.value;
     var tempType;
     
     for (var i=0; i < document.ansForm.choice.length; i++) {
