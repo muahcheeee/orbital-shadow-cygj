@@ -55,14 +55,11 @@ function processPageTwo() {
     for (var i=0; i < ans.length; i++) {
         if (tempType[i] != ans[i]) {
             alert("Wrong!");
+            break;
         }
         
-        else if (tempType[i] === ans[i]) {
+        else if (i === 4 && tempType[i] === ans[i]) {
             alert("Correct!");
-        }
-        
-        else {
-            alert("Wrong!");
         }
     }
 }
