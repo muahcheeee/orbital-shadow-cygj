@@ -19,8 +19,8 @@ function processPageOne() {
 
 function processPageTwo() {
     
-    var tempType[5];
-    var ans[5] = {"knife","lead pipe","candlestick","revolver","wrench"};
+    var tempType;
+    var ans = ["knife","lead pipe","candlestick","revolver","wrench"];
     
     for (var i=0; i < document.plum.choice.length; i++) {
         if (document.plum.choice[i].checked) {
