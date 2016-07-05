@@ -19,7 +19,7 @@ function processPageOne() {
 
 function processPageTwo() {
     
-    var tempType;
+    var tempType = [];
     var ans = ["knife","lead pipe","candlestick","revolver","wrench"];
     
     for (var i=0; i < document.plum.choice.length; i++) {
