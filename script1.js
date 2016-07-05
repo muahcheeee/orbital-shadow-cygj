@@ -1,4 +1,4 @@
-function processPage1() {
+function processPageOne() {
     
     var tempType;
     
