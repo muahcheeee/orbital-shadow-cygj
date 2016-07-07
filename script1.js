@@ -70,6 +70,12 @@ function processPageTwo() {
     }
 }
 
+function showHintTwo() {
+	
+	document.getElementById("hintSpace").innerHTML = "Trace the identities of the masked attackers from the start of the conversation. Using the process of elimination, determine the masked attackers whose identities are not obvious from the conversation.";
+
+}
+
 function processPageThree() {
     
     var tempType;
@@ -87,4 +93,10 @@ function processPageThree() {
     else {
         alert("Wrong!");
     }
+}
+
+function showHintTwo() {
+	
+	document.getElementById("hintSpace").innerHTML = "Write down the names of all guests on a piece of paper. For those who have performed a gag, note it down and trace the conversation until the end. Only one of the guests other than Mrs Peacock had only performed one gag thus far.";
+
 }
