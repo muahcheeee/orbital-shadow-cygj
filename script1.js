@@ -63,3 +63,22 @@ function processPageTwo() {
         }
     }
 }
+
+function processPageThree() {
+    
+    var tempType;
+    
+    for (var i=0; i < document.ansForm.choice.length; i++) {
+        if (document.ansForm.choice[i].checked) {
+            tempType = document.ansForm.choice[i].value;
+        }
+    }
+
+    if (tempType == 'white') {
+        alert("Correct!");
+    }
+    
+    else {
+        alert("Wrong!");
+    }
+}
