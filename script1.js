@@ -14,6 +14,10 @@ function processPageOne() {
     
     else {
         alert("Wrong!");
+    	<form name="hint">
+            <input type="button" value="Hint" onclick="showHintOne()">
+    	</form>
+    	<div id="hintSpace"></div>
     }
 }
 
