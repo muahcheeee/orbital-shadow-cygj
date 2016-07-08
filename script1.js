@@ -9,11 +9,17 @@ function processPageOne() {
     }
 
     if (tempType == 'hall') {
-        alert("Correct!");
+        var next = confirm("Correct!");
+        if (next == true) {
+        	window.history.back();
+        }
     }
     
     else {
-        alert("Wrong!");
+        var next = confirm("Wrong!\n" + "Hint?");
+        if (next == true) {
+        	alert("Professor Plum wrapped the gift in the Billard Room. Then then walked to the Conservatory, the Lounge, the Library, the Hall, the Ball Room, and the Dining Room. Plum remembered still having the gift with him in the Library. So we can rule out the rooms he was in before that.")
+        }
     }
 }
 
