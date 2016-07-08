@@ -16,17 +16,11 @@ function processPageOne() {
     }
     
     else {
-        var next = confirm("Wrong!\n" + "Hint?");
+        var next = confirm("Wrong!\n" + "\n" + "Hint?");
         if (next == true) {
-        	alert("Professor Plum wrapped the gift in the Billard Room. Then then walked to the Conservatory, the Lounge, the Library, the Hall, the Ball Room, and the Dining Room. Plum remembered still having the gift with him in the Library. So we can rule out the rooms he was in before that.")
+        	alert("Professor Plum wrapped the gift in the Billard Room. Then then walked to the Conservatory, the Lounge, the Library, the Hall, the Ball Room, and the Dining Room. Plum remembered still having the gift with him in the Library. So we can rule out the rooms he was in before that.");
         }
     }
-}
-
-function showHintOne() {
-	
-	document.getElementById("hintSpace").innerHTML = "Professor Plum wrapped the gift in the Billard Room. Then then walked to the Conservatory, the Lounge, the Library, the Hall, the Ball Room, and the Dining Room. Plum remembered still having the gift with him in the Library. So we can rule out the rooms he was in before that.";
-
 }
 
 function processPageTwo() {
@@ -66,20 +60,18 @@ function processPageTwo() {
     
     for (var i=0; i < ans.length; i++) {
         if (tempType[i] != ans[i]) {
-            alert("Wrong!");
-            break;
+        	var next = confirm("Wrong!\n" + "\n" + "Hint?");
+        	if (next == true) {
+        		alert("Trace the identities of the masked attackers from the start of the conversation. Using the process of elimination, determine the masked attackers whose identities are not obvious from the conversation.");
+          break;
         }
         
         else if (i === 4 && tempType[i] === ans[i]) {
-            alert("Correct!");
+        	var next = confirm("Correct!");
+        	if (next == true) {
+        		window.history.back();
         }
     }
-}
-
-function showHintTwo() {
-	
-	document.getElementById("hintSpace").innerHTML = "Trace the identities of the masked attackers from the start of the conversation. Using the process of elimination, determine the masked attackers whose identities are not obvious from the conversation.";
-
 }
 
 function processPageThree() {
@@ -93,16 +85,14 @@ function processPageThree() {
     }
 
     if (tempType == 'white') {
-        alert("Correct!");
+      var next = confirm("Correct!");
+      if (next == true) {
+        window.history.back();
     }
     
     else {
-        alert("Wrong!");
+      var next = confirm("Wrong!\n" + "\n" + "Hint?");
+      if (next == true) {
+      	alert("Write down the names of all guests on a piece of paper. For those who have performed a gag, note it down and trace the conversation until the end. Only one of the guests other than Mrs Peacock had only performed one gag thus far.");
     }
-}
-
-function showHintTwo() {
-	
-	document.getElementById("hintSpace").innerHTML = "Write down the names of all guests on a piece of paper. For those who have performed a gag, note it down and trace the conversation until the end. Only one of the guests other than Mrs Peacock had only performed one gag thus far.";
-
 }
