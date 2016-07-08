@@ -100,3 +100,27 @@ function processPageThree() {
         }
     }
 }
+
+function processPageFour() {
+    
+    var tempType;
+    
+    for (var i=0; i < document.ansForm.choice.length; i++) {
+        if (document.ansForm.choice[i].checked) {
+            tempType = document.ansForm.choice[i].value;
+        }
+    }
+
+    if (tempType == 'white') {
+      var next = confirm("Correct!\n\n" + "Only Mrs White and Mrs Peacock kept a hand under the table.\n" + " But Mrs Peacock had the rope.\n" + " She couldn't have used the rope to make the crisp rapping noises the group heard.\n");
+      if (next == true) {
+        window.history.back();
+        }
+    }
+    
+    else {
+      var next = confirm("Wrong!\n");
+      if (next == true) {
+        }
+    }
+}
