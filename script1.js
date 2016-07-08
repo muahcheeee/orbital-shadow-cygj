@@ -63,6 +63,7 @@ function processPageTwo() {
         	var next = confirm("Wrong!\n" + "\n" + "Hint?");
         	if (next == true) {
         		alert("Trace the identities of the masked attackers from the start of the conversation. Using the process of elimination, determine the masked attackers whose identities are not obvious from the conversation.");
+        	}
           break;
         }
         
@@ -70,6 +71,7 @@ function processPageTwo() {
         	var next = confirm("Correct!");
         	if (next == true) {
         		window.history.back();
+            }
         }
     }
 }
@@ -88,11 +90,13 @@ function processPageThree() {
       var next = confirm("Correct!");
       if (next == true) {
         window.history.back();
+        }
     }
     
     else {
       var next = confirm("Wrong!\n" + "\n" + "Hint?");
       if (next == true) {
       	alert("Write down the names of all guests on a piece of paper. For those who have performed a gag, note it down and trace the conversation until the end. Only one of the guests other than Mrs Peacock had only performed one gag thus far.");
+        }
     }
 }
