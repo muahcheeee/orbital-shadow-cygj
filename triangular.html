@@ -1,0 +1,29 @@
+<html> 
+<head> 
+<title>loop</title> 
+<script = "javascript"> 
+  
+function mul() 
+{ 
+var b = ""; 
+var c = eval(document.getElementById("txt").value); 
+for(var a=1; a<=c; a++) 
+{ 
+for(var d=1; d<=a; d++) 
+{ 
+b +="o" ; 
+} 
+b += "" + "<br>"; 
+} 
+document.getElementById("box").innerHTML= "<br>"+ "<br>"+c + "  triangular number =   " +  (c*(c+1)/2) + "<br>" + "<br>"+b ; 
+  
+} 
+</script> 
+</head> 
+<body> 
+<h1>Triangular Numbers</h1> 
+<input type="text" id="txt" value= 2> 
+<input type = "button" value="triangular number" onclick="mul()"> 
+<span id="box" style="font-size:20; color:blue"></span> 
+</body> 
+</html>
