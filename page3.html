@@ -1,7 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-        <script type="text/javascript" src="script1.js"></script>
+        <script language="javascript">
+    function processPage() {
+    
+    var tempType;
+    
+    for (var i=0; i < document.ansForm.choice.length; i++) {
+        if (document.ansForm.choice[i].checked) {
+            tempType = document.ansForm.choice[i].value;
+        }
+    }
+
+    if (tempType == 'white') {
+      var next = confirm("Correct!\n\n" + "Gags:\n" + "Mr Green helping Mrs White put her head on the tray. Green 1, White 1\n" + "Professor Plum putting the Knife in his head. Plum 1\n" + "Colonel Mustard and Miss Scarlet faking her murder. Mustard 1, Scarlett 1\n" + "Mr Green and Colonel Mustard faking a duel to the death, with Mrs Peacock's help. Green 2, Mustard 2, Peacock 1\n" + "Professor Plum and Miss Scarlet staging a fake shooting. Plum 2 Scarlett 2\n" + "Only Mrs Peacock and Mrs White performed one gag before the final incident occured.\n");
+      if (next == true) {
+        window.history.back();
+        }
+    }
+    
+    else {
+      var next = confirm("Wrong!\n" + "\n" + "Hint?");
+      if (next == true) {
+      	alert("Write down the names of all guests on a piece of paper. For those who have performed a gag, note it down and trace the conversation until the end. Only one of the guests other than Mrs Peacock had only performed one gag thus far.");
+        }
+    }
+}
+        </script>
   </head>
   
   <body>
@@ -60,7 +85,7 @@
             <input type="radio" name="choice" value="mustard">Colonel Mustard<br>
             <input type="radio" name="choice" value="peacock">Mrs Peacock<br>
             <br>
-            <input type="button" value="Check" onclick="processPageThree()">
+            <input type="button" value="Check" onclick="processPage()">
     </form>
   </body>
 </html>
