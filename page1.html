@@ -1,54 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-        <script language="javascript">
-    function processPage() {
-    
-    var tempType;
-    
-    for (var i=0; i < document.ansForm.choice.length; i++) {
-        if (document.ansForm.choice[i].checked) {
-            tempType = document.ansForm.choice[i].value;
-        }
-    }
+<head>
+    <script language="javascript">
+        function processPage() {
+            
+            var tempType;
+            
+            for (var i=0; i < document.ansForm.choice.length; i++) {
+                if (document.ansForm.choice[i].checked) {
+                    tempType = document.ansForm.choice[i].value;
+                }
+            }
 
-    if (tempType == 'hall') {
-        var next = confirm("Correct!\n\n" + "Professor Plum wrapped the gift in the Billard Room. Then then walked to the Conservatory, the Lounge, the Library, the Hall, the Ball Room, and the Dining Room. Plum remembered still having the gift with him in the Library. So we can rule out the rooms he was in before the Library: the Billard Room, the Conservatory, and the Lounge. Mrs White and Colonel Mustard checked the Ball Room and Library. And Professor Plum came into the Dining Room empty-handed. That leaves only the Hall.");
-        if (next == true) {
-        	window.history.back();
-        }
-    }
-    
-    else {
-        var next = confirm("Wrong!\n" + "\n" + "Hint?");
-        if (next == true) {
-        	alert("Professor Plum wrapped the gift in the Billard Room. Then he walked to the Conservatory, the Lounge, the Library, the Hall, the Ball Room, and the Dining Room. Plum remembered still having the gift with him in the Library. So we can rule out the rooms he was in before that.");
-        }
-    }
-}
-        </script>
-  </head>
-  
-  <body>
+            if (tempType == 'hall') {
+                var next = confirm("Correct!\n\n" + "Professor Plum wrapped the gift in the Billard Room. Then then walked to the Conservatory, the Lounge, the Library, the Hall, the Ball Room, and the Dining Room. Plum remembered still having the gift with him in the Library. So we can rule out the rooms he was in before the Library: the Billard Room, the Conservatory, and the Lounge. Mrs White and Colonel Mustard checked the Ball Room and Library. And Professor Plum came into the Dining Room empty-handed. That leaves only the Hall.");
+                if (next == true) {
+                   window.history.back();
+               }
+           }
+           
+           else {
+            var next = confirm("Wrong!\n" + "\n" + "Hint?");
+            if (next == true) {
+               alert("Professor Plum wrapped the gift in the Billard Room. Then he walked to the Conservatory, the Lounge, the Library, the Hall, the Ball Room, and the Dining Room. Plum remembered still having the gift with him in the Library. So we can rule out the rooms he was in before that.");
+           }
+       }
+   }
+</script>
+</head>
+
+<body>
     <h1 align="center">Where did Professor Plum leave his present?</h1>
     <h2 align="center">Background</h2>
     <p>It's Mr Green's birthday, the other guests are throwing a party in the Dining Room and have all prepared a gift for Mr Green with the exception of Professor Plum who happened to prepare two gifts for the birthday guy. The crazy thing is that one of the gifts was a time bomb, and absent-minded Professor Plum has forgotten where he left the gift! If you are not able to deduce the room which Professor Plum left the bomb in time, everyone in the mansion dies! </p>
 
     <h2 align="center">In the Dining Room</h2>
     <p>Colonel Mustard: "Ah Professor - we've all given Mr Green our gifts. Maybe now would be a good time for you to give him your present."
-<p>Professor Plum: "My present? Mmm, now where did I leave it?"</p>
-<p>Mr Green: "Oh great! First you forget my party, then you forget my present. What's next?"</p>
-<p>Professor Plum: "I forget. Uh-oh. I just remembered something else. I got you two presents. And the second present is a time bomb that's going to go off in about... Oh I'd say ninety seconds."</p>
-<p>Colonel Mustard: "A time bomb?!? Why would anyone do anything so stupid?"</p>
-<p>Professor Plum: "I thought it would liven up the party. Believe me, I didn't plan on things working out this way, I was going to turn the thing off right after you opened it!"</p>
-<p>Mrs Peacock: "What room did you leave the bomb in?"</p>
-<p>Professor Plum: "I don't know. All I know is that I came in here empty-handed. I remember wrapping the gift in the Billard Room... went for a stroll while thinking about my latest research project through the Conservatory and then to the Lounge. Then I went to the Library, then to the Hall, then to the Ball Room, and finally to the party in the Dining Room."</p>
-<p>Mrs White: "I've searched the Ball Room and there is nothing there!"</p>
-<p>Professor Plum: "Wait! I remember having the gift in the Library!"</p>
-<p>Colonel Mustard: "I've already searched the Library. It's not there!"</p>
+        <p>Professor Plum: "My present? Mmm, now where did I leave it?"</p>
+        <p>Mr Green: "Oh great! First you forget my party, then you forget my present. What's next?"</p>
+        <p>Professor Plum: "I forget. Uh-oh. I just remembered something else. I got you two presents. And the second present is a time bomb that's going to go off in about... Oh I'd say ninety seconds."</p>
+        <p>Colonel Mustard: "A time bomb?!? Why would anyone do anything so stupid?"</p>
+        <p>Professor Plum: "I thought it would liven up the party. Believe me, I didn't plan on things working out this way, I was going to turn the thing off right after you opened it!"</p>
+        <p>Mrs Peacock: "What room did you leave the bomb in?"</p>
+        <p>Professor Plum: "I don't know. All I know is that I came in here empty-handed. I remember wrapping the gift in the Billard Room... went for a stroll while thinking about my latest research project through the Conservatory and then to the Lounge. Then I went to the Library, then to the Hall, then to the Ball Room, and finally to the party in the Dining Room."</p>
+        <p>Mrs White: "I've searched the Ball Room and there is nothing there!"</p>
+        <p>Professor Plum: "Wait! I remember having the gift in the Library!"</p>
+        <p>Colonel Mustard: "I've already searched the Library. It's not there!"</p>
 
-    <h2 align="center">Where is the bomb?</h2>
-    <form name="ansForm">
+        <h2 align="center">Where is the bomb?</h2>
+        <form name="ansForm">
             <p>Answer:</p>
             <input type="radio" name="choice" value="dining room">Dining Room<br>
             <input type="radio" name="choice" value="hall">Hall<br>
@@ -61,6 +61,6 @@
             <input type="radio" name="choice" value="kitchen">Kitchen<br>
             <br>
             <input type="button" value="Check" onclick="processPage()">
-    </form>
-  </body>
-</html>
+        </form>
+    </body>
+    </html>

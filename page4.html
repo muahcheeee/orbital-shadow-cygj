@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script language="javascript">
-  function processPage() {
-    
-    var tempType;
-    
-    for (var i=0; i < document.ansForm.choice.length; i++) {
+  <script language="javascript">
+    function processPage() {
+      
+      var tempType;
+      
+      for (var i=0; i < document.ansForm.choice.length; i++) {
         if (document.ansForm.choice[i].checked) {
-            tempType = document.ansForm.choice[i].value;
+          tempType = document.ansForm.choice[i].value;
         }
-    }
+      }
 
-    if (tempType == 'white') {
-      var next = confirm("Correct!\n\n" + "Only Mrs White and Mrs Peacock kept a hand under the table.\n" + " But Mrs Peacock had the rope.\n" + " She couldn't have used the rope to make the crisp rapping noises the group heard.\n");
-      if (next == true) {
-        window.history.back();
+      if (tempType == 'white') {
+        var next = confirm("Correct!\n\n" + "Only Mrs White and Mrs Peacock kept a hand under the table.\n" + " But Mrs Peacock had the rope.\n" + " She couldn't have used the rope to make the crisp rapping noises the group heard.\n");
+        if (next == true) {
+          window.history.back();
         }
-    }
-    
-    else {
-      var next = confirm("Wrong!\n");
-      if (next == true) {
+      }
+      
+      else {
+        var next = confirm("Wrong!\n");
+        if (next == true) {
         }
+      }
     }
-}
-</script>
+  </script>
 </head>
 
 <h1 align="center">THE GHOST OF MRS BODDY</h1>
 <h2 align="center">Background</h2>
 <p>My Boddy had gathered all of the guests in the Dining Room for a ritual to summon his late wife. 
-The ritual required everyone to hold hands together in order to communicate with Mrs Boddy. 
-Mrs Boddy would answer by making a rapping sound under the table. One rap for yes. two raps for no. 
-At the end, Mr Boddy was pleased to have spoken to his late wife and finally found peace through the process.. or was it just a hoax? 
-Find out which of the suspects was the fake ghost. 
-(Hint: It has to be someone whose hands are free to use their weapons to making the rapping sound!).
+  The ritual required everyone to hold hands together in order to communicate with Mrs Boddy. 
+  Mrs Boddy would answer by making a rapping sound under the table. One rap for yes. two raps for no. 
+  At the end, Mr Boddy was pleased to have spoken to his late wife and finally found peace through the process.. or was it just a hoax? 
+  Find out which of the suspects was the fake ghost. 
+  (Hint: It has to be someone whose hands are free to use their weapons to making the rapping sound!).
 </p>
 
 <h2 alight="center">The Ritual</h2>
@@ -50,14 +50,14 @@ Find out which of the suspects was the fake ghost.
 
 <h2 align="center"> Who was it?</h2>
 <form name="ansForm">
-<p>Answer:</p>
+  <p>Answer:</p>
 
-<input type="radio" name="choice" value="plum">Professor Plum<br>
-<input type="radio" name="choice" value="white">Mrs White<br>
-<input type="radio" name="choice" value="scarlet">Miss Scarlet<br>
-<input type="radio" name="choice" value="green">Mr Green<br>
-<input type="radio" name="choice" value="mustard">Colonel Mustard<br>
-<input type="radio" name="choice" value="peacock">Mrs Peacock<br>
-<br>
-<input type="button" value="Check" onclick="processPage()">
+  <input type="radio" name="choice" value="plum">Professor Plum<br>
+  <input type="radio" name="choice" value="white">Mrs White<br>
+  <input type="radio" name="choice" value="scarlet">Miss Scarlet<br>
+  <input type="radio" name="choice" value="green">Mr Green<br>
+  <input type="radio" name="choice" value="mustard">Colonel Mustard<br>
+  <input type="radio" name="choice" value="peacock">Mrs Peacock<br>
+  <br>
+  <input type="button" value="Check" onclick="processPage()">
 </form>
