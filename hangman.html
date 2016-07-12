@@ -225,6 +225,12 @@ var cc=" ";
     }
   }
 }
+
+function showHelp()
+{
+    var msg = "If you wish to guess the letters 'A', 'E' , 'I' in sequence, enter 'a' followed by 'ae', then 'aei'. Do not backspace any letters for the programme to record your number of guesses.";
+    alert(msg);
+}
 //  End -->
 </script>
  
@@ -265,7 +271,7 @@ var cc=" ";
 </font>
 </td></tr></table>
  
-<font size=2 color="#685dab"><b>3. </font><font size=3><input type="text" name="input" size=35></font> <input type="button" value="Enter" onClick="makeAGuess();"><br> <!---->
+<font size=2 color="#685dab"><b>3. </font><font size=3><input type="text" name="input" size=35></font> <input type="button" value="Enter" onClick="makeAGuess();"><input type="button" onclick='showHelp()' value='Help'><br> <!---->
 <div align=left>
 <font size=2 color=red><b><i>Warning!</b></font> <font size=1 color="#000000"><i>You only have </i></font><font size=3 face=arial><input type="text" name="counter" value="" size=2 maxlength=2 disabled></font><font size=1 color="#000000"><i> bad guess before you lose!.</i></font>
 </form>
