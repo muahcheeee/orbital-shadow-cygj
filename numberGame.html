@@ -1,7 +1,7 @@
 <html>
 <head>
 <META name=VI60_DTCScriptingPlatform content="Client (IE 4.0 DHTML)">
-<title>Matthew & Grant's Simple Math Game</title>
+<title>Simple Math Game</title>
 </head>
  
 <body onclick="MouseClick()" bgColor=Aqua  text=black background="" >
@@ -83,7 +83,7 @@ speed       = 0.5;                  // 0 < speed < 1
 R           = restartStr.split(''); 
 Angle       = 220/R.length;         // Angle increment between letters
 step        = 0.2;                  // Angle increment per delay period
-currStep    = 0;                    // Initial Angle
+currStep    = 0;                    // Initial Anglehel
  
 // Current center of rotation for each letter
 Dy = new Array();   Dx = new Array();
@@ -113,9 +113,6 @@ function ShowHelp()
     var sessions = SessionsCompleted( );
     if ( sessions > 0 )
         msg += "Sessions Completed : " + sessions + "\n\n";
-       
-    msg += 'Copyright (c) 2003 Matthew & Grant Davidson.\n' +
-          'All Rights Reserved.' 
      
     var wasShowing = restartShowing;
     ShowRestartMsg( false );
