@@ -1,7 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-        <script type="text/javascript" src="script1.js"></script>
+        <script language="javascript">
+    function processPage() {
+    
+    var tempType;
+    
+    for (var i=0; i < document.ansForm.choice.length; i++) {
+        if (document.ansForm.choice[i].checked) {
+            tempType = document.ansForm.choice[i].value;
+        }
+    }
+
+    if (tempType == 'hall') {
+        var next = confirm("Correct!\n\n" + "Professor Plum wrapped the gift in the Billard Room. Then then walked to the Conservatory, the Lounge, the Library, the Hall, the Ball Room, and the Dining Room. Plum remembered still having the gift with him in the Library. So we can rule out the rooms he was in before the Library: the Billard Room, the Conservatory, and the Lounge. Mrs White and Colonel Mustard checked the Ball Room and Library. And Professor Plum came into the Dining Room empty-handed. That leaves only the Hall.");
+        if (next == true) {
+        	window.history.back();
+        }
+    }
+    
+    else {
+        var next = confirm("Wrong!\n" + "\n" + "Hint?");
+        if (next == true) {
+        	alert("Professor Plum wrapped the gift in the Billard Room. Then he walked to the Conservatory, the Lounge, the Library, the Hall, the Ball Room, and the Dining Room. Plum remembered still having the gift with him in the Library. So we can rule out the rooms he was in before that.");
+        }
+    }
+}
+        </script>
   </head>
   
   <body>
@@ -35,7 +60,7 @@
             <input type="radio" name="choice" value="lounge">Lounge<br>
             <input type="radio" name="choice" value="kitchen">Kitchen<br>
             <br>
-            <input type="button" value="Check" onclick="processPageOne()">
+            <input type="button" value="Check" onclick="processPage()">
     </form>
   </body>
 </html>
