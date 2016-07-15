@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script language="javascript">
+    function processPage() {
+      
+      var tempType;
+      
+      for (var i=0; i < document.ansForm.choice.length; i++) {
+        if (document.ansForm.choice[i].checked) {
+          tempType = document.ansForm.choice[i].value;
+        }
+      }
+      if (tempType == 'white') {
+        var next = confirm("Correct!\n\n" + "By process of elimination, Professor Plum checked the Study as no two rooms were checked twice. The Kitchen was home base which left the Ball Room unchecked..\n");
+        if (next == true) {
+          window.history.back();
+        }
+      }
+      
+      else {
+        var next = confirm("Wrong!\n\n" + "Hint?");
+        if (next == true) {
+          alert("Determine which room did Professor Plum check by process of elimination.")
+        }
+      }
+    }
+  </script>
+</head>
 
+<h1 align="center">Hide & Seek</h1>
+<h2 align="center">Background</h2>
+<p>The guests are playing a game of Hide-And-Seek in the mansion. The Kitchen was their home base and no one was allowed to hide in there, leaving all other rooms as possible hiding spots. In the midst of their game, a fire broke out and the guests scrambled about to flee the mansion quickly. Mrs White was nowhere to be found and the guests only have time to go to ONE of the rooms to find her. They started telling one another the rooms they've checked before leaving the mansion. Which room is Mrs White in?
+</p>
+
+<h2 alight="center">The Mansion</h2>
+<p>Mr Green: "I checked the Library. I didn't see Mrs White in there!"</p>
+
+<p>Miss Scarlet: "I checked the Billard Room and the Conservatory. Neither was she in those two rooms."</p>
+<p>Mrs Peacock: "I checked the Hall and the Lounge. She's nowhere to be seen there!"</p>
+<p>Professor Plum: "Uh, I checked either the Dining Room, the Study. or the Conservatory. I can't remember which."</p>
+<p>Colonel Mustard: "Seriously Plum! As I was dashing out, I managed to check the Dining Room and she wasn't in there."</p>
+<p>As luck would have it, no two rooms were checked twice.</p>
+
+<h2 align="center">Where is Mrs White?</h2>
+<form name="ansForm">
+  <p>Answer:</p>
+  <input type="radio" name="choice" value="dining room">Dining Room<br>
+  <input type="radio" name="choice" value="hall">Hall<br>
+  <input type="radio" name="choice" value="study">Study<br>
+  <input type="radio" name="choice" value="library">Library<br>
+  <input type="radio" name="choice" value="billard room">Billard Room<br>
+  <input type="radio" name="choice" value="conservatory">Conservatory<br>
+  <input type="radio" name="choice" value="ball room">Ball Room<br>
+  <input type="radio" name="choice" value="lounge">Lounge<br>
+  <input type="radio" name="choice" value="kitchen">Kitchen<br>
+  <br>
+  <input type="button" value="Check" onclick="processPage()">
+</form>
