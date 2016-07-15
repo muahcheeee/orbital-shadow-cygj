@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script language="javascript">
+    function processPage() {
+      
+      var tempType;
+      
+      for (var i=0; i < document.ansForm.choice.length; i++) {
+        if (document.ansForm.choice[i].checked) {
+          tempType = document.ansForm.choice[i].value;
+        }
+      }
+      if (tempType == 'green') {
+        var next = confirm("Correct!\n\n" + "Miss Scarlet, Mrs White, and Professor Plum all came before Mrs Peacock. And Mrs Peacock and Colonel Mustard both came before Mr Green. Mr Green was last and committed the dastardly deed.\n");
+        if (next == true) {
+          window.history.back();
+        }
+      }
+      
+      else {
+        var next = confirm("Wrong!\n\n" + "Hint?");
+        if (next == true) {
+          alert("Find out who was the last person in the Library.")
+        }
+      }
+    }
+  </script>
+</head>
 
+<h1 align="center">Death of Mr Boddy</h1>
+<h2 align="center">Background</h2>
+<p>Mr Boddy had just told his six favourite guests that he has left a will for all of them. As there is no living heir to the Boddy fortune worth millions of dollars, after Mr Boddy dies, the money will be divided evenly among the six guests. However, to the guests dismay, Mr Boddy exclaimed that he does not have any intent of dying so soon and plans to live a long long life. The next morning, Mr Boddy was found dead in the Library. Follow the series of conversation to determine who is the murderer.
+</p>
+
+<h2 alight="center">The Ritual</h2>
+<p>Mrs White: "This is so horrible, one of you is a murderer!"</p>
+<p>Mr Green: "I see, and you're innocent?"</p>
+<p>Miss Scarlet: "We all loved him, but we all love money too."</p>
+<p>Professor Plum: "It's true. Any one of us could have done it. We all have the same motive."</p>
+<p>Mrs Peacock: "Were you in the Library last night, Professor?"</p>
+<p>Professor Plum: "Yes. But only to borrow a book on butterfly collecting. Mr Boddy was alive and well at the time. I might add, I was there before you, Mrs Peacock."</p>
+<p>Mrs Peacock: "Well! Mr Green was in the Library after me."</p>
+<p>Mrs White: "And Professor Plum was in the Library after me."</p>
+<p>Miss Scarlet: "I was in the Library before Mrs White."</p>
+<p>Colonel Mustard: "I was in the Library before Mr Green."</p>
+
+<h2 align="center">Who killed Mr Boddy?</h2>
+<form name="ansForm">
+  <p>Answer:</p>
+
+  <input type="radio" name="choice" value="plum">Professor Plum<br>
+  <input type="radio" name="choice" value="white">Mrs White<br>
+  <input type="radio" name="choice" value="scarlet">Miss Scarlet<br>
+  <input type="radio" name="choice" value="green">Mr Green<br>
+  <input type="radio" name="choice" value="mustard">Colonel Mustard<br>
+  <input type="radio" name="choice" value="peacock">Mrs Peacock<br>
+  <br>
+  <input type="button" value="Check" onclick="processPage()">
+</form>
