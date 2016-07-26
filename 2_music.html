@@ -13,7 +13,7 @@
       }
 
       if (tempType == 'mustard') {
-        var next = confirm("Correct!\n\n" + "The possible guests listed for the first viola and second viola and first cello are all women. That means that the second cello player can't be a woman as well. Why? Because there are only three women on the list of six possible suspects. So it must be Professor Plum.\n" + "The piano player is not Professor Plum or Colonel Mustard. It can't be a woman. So it must be Mr Green.\n" + "That means that Colonel Mustard is the only missing guest.\n");
+        var next = confirm("Correct!\n\n" + "The possible guests listed for the first viola and second viola and first cello are all women. That means that the second cello player can't be a woman as well. Why? Because there are only three women on the list of six possible suspects. So it must be Doctor Melon.\n" + "The piano player is not Doctor Melon or General Lemon. It can't be a woman. So it must be Mr Leaf.\n" + "That means that General Lemon is the only missing guest.\n");
         if (next == true) {
           window.history.back();
         }
@@ -41,21 +41,21 @@
 <p>First Viola - Any of the three women.</p>
 <p>Second Viola - Any of the three women.</p>
 <p>First Cello - Any of the three women.</p>
-<p>Second Cello - Miss Scarlet or Professor Plum.</p>
-<p>Piano - Not Professor Plum or Colonel Mustard.</p>
+<p>Second Cello - Miss Rose or Doctor Melon.</p>
+<p>Piano - Not Doctor Melon or General Lemon.</p>
 <br>
 <p>Meanwhile, the other guests had cornered the old woman by the badminton net.</p>
-<p>Mr Green: "Give us back Mr Boddy's fiddle, you old crone!"</p>
+<p>Mr Leaf: "Give us back Mr Boddy's fiddle, you old crone!"</p>
 
 <h2 align="center">Who was the old woman?</h2>
 <form name="ansForm">
   <p>Answer:</p>
-  <input type="radio" name="choice" value="plum">Professor Plum<br>
-  <input type="radio" name="choice" value="white">Mrs White<br>
-  <input type="radio" name="choice" value="scarlett">Miss Scarlett<br>
-  <input type="radio" name="choice" value="green">Mr Green<br>
-  <input type="radio" name="choice" value="mustard">Colonel Mustard<br>
-  <input type="radio" name="choice" value="peacock">Mrs Peacock<br>
+  <input type="radio" name="choice" value="plum">Doctor Melon<br>
+  <input type="radio" name="choice" value="white">Mrs Blank<br>
+  <input type="radio" name="choice" value="scarlett">Miss Roset<br>
+  <input type="radio" name="choice" value="green">Mr Leaf<br>
+  <input type="radio" name="choice" value="mustard">General Lemon<br>
+  <input type="radio" name="choice" value="peacock">Mrs Rainbow<br>
   <br>
   <input type="button" value="Check" onclick="processPage()">
 </form>
