@@ -73,7 +73,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">Background</h1>
-<p>The guests are playing a game of Hide-And-Seek in the mansion. The Kitchen was their home base and no one was allowed to hide in there, leaving all other rooms as possible hiding spots. In the midst of their game, a fire broke out and the guests scrambled about to flee the mansion quickly. Mrs Blank was nowhere to be found and the guests only have time to go to ONE of the rooms to find her. They started telling one another the rooms they've checked before leaving the mansion. Which room is Mrs Blank in?
+<p>Five other guests had come up with a ploy to exterminate Mrs Rainbow due to her blamishing column in the daily papers about the rest of the guests. They are gatherd in Mr Leaf's room one night in an attempt to carry out the murder. All of them had masks on and there are five weapons on the table: a Knife, a Spanner, a Pistol, a Steel Rod, and a Candlestick. Follow the conversation and determine who had which weapon.
 </p>
     </div>
     <div class="w3-third w3-container">
@@ -84,13 +84,25 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
   <div class="w3-row">
     <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">The Mansion</h1>
-      <p>Mr Leaf: "I checked the Library. I didn't see Mrs Blank in there!"</p>
-<p>Miss Rose: "I checked the Mahjong Room and the Games Room. Neither was she in those two rooms."</p>
-<p>Mrs Rainbow: "I checked the Hall and the Lounge. She's nowhere to be seen there!"</p>
-<p>Doctor Melon: "Uh, I checked either the Dining Room, the Study. or the Games Room. I can't remember which."</p>
-<p>General Lemon: "Seriously Plum! As I was dashing out, I managed to check the Dining Room and she wasn't in there."</p>
-<p>As luck would have it, no two rooms were checked twice.</p>
+      <h1 class="w3-text-teal">In the Kitchen</h1>
+      <p>Mr Leaf: "All right, let's get started. Mrs Blank, you take the Pistol."</p>
+    <p>Mrs Blank: "Oh, but I don't know how to use it."</p>
+    <p>Mr Leaf: "Fine, I'll give you another one."</p>
+    <p>--All weapons were handed out--</p>
+    <p>--The five guests crept into Mrs Rainbow's room, but the door suddenly opened and all five attackers fell screaming into the dark room. They crashed against the wall. Then the door closed and locked--</p>
+    <p>Mrs Rainbow: "Good evening, how nice of you all to drop in."</p>
+    <p>--One of the masked figures was back on his feet. He was waving a Steel Rod--</p>
+    <p>Attacker with Candlestick: "That's the trick, Mr Leaf! Get her!"</p>
+    <p>--Two attackers rushed at Mrs Rainbow from either side. Mrs Rainbow ducked. The attackers crashed into each other and fell to the floor--</p>
+    <p>Attacker #1: "Where did she go?"</p>
+    <p>Attacker #2: "I don't see her, Miss Rose..."</p>
+    <p>Attacker #3: "Where's the light switch, anyway?"</p>
+    <p>These three attackers were holding the Spanner, the Pistol, and the Candlestick.</p>
+    <p>--Two more attackers charged forward at the same time at Mrs Rainbow, but she knew one of them was General Lemon, so he must be carrying either the Knife, or the Candlestick--
+        <p>--In the darkness, the attackers all crashed into one another head-first and fell in a perfect circle, out cold--</p>
+        <p>--Mrs Rainbow crawled out from hiding and flicked on the lights--</p>
+        <p>--She bent over the first attacker. The unconscious figure was clutching the Knife. She pulled up the mask--</p>
+        <p>Mrs Rainbow: "Doctor Melon. Tsk, tsk. What a bad boy you are!"</p>
     </div>
     <div class="w3-third w3-container">
       <p class="w3-border w3-padding-medium w3-padding-32 w3-center">AD</p>
@@ -100,21 +112,58 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Where is Mrs Blank?</h1>
-      <form name="ansForm">
-  <p>Answer:</p>
-  <input type="radio" name="choice" value="dining room">Dining Room<br>
-  <input type="radio" name="choice" value="hall">Hall<br>
-  <input type="radio" name="choice" value="study">Study<br>
-  <input type="radio" name="choice" value="library">Library<br>
-  <input type="radio" name="choice" value="Mahjong Room">Mahjong Room<br>
-  <input type="radio" name="choice" value="Games Room">Games Room<br>
-  <input type="radio" name="choice" value="Living Room">Living Room<br>
-  <input type="radio" name="choice" value="lounge">Lounge<br>
-  <input type="radio" name="choice" value="kitchen">Kitchen<br>
-  <br>
-  <input type="button" value="Check" onclick="processPage()">
-</form>
+      <h1 class="w3-text-teal">Who has which weapon?</h1>
+         <form name="plum">
+            <p>Doctor Melon:</p>
+            
+            <input type="radio" name="choice" value="Pistol">Pistol<br>
+            <input type="radio" name="choice" value="Steel Rod">Steel Rod<br>
+            <input type="radio" name="choice" value="Spanner">Spanner<br>
+            <input type="radio" name="choice" value="candlestick">Candlestick<br>
+            <input type="radio" name="choice" value="knife">Knife<br>
+            <br>
+        </form>
+        <form name="green">
+            <p>Mr Leaf:</p>
+            
+            <input type="radio" name="choice" value="Pistol">Pistol<br>
+            <input type="radio" name="choice" value="Steel Rod">Steel Rod<br>
+            <input type="radio" name="choice" value="Spanner">Spanner<br>
+            <input type="radio" name="choice" value="candlestick">Candlestick<br>
+            <input type="radio" name="choice" value="knife">Knife<br>
+            <br>
+        </form>
+        <form name="mustard">
+            <p>General Lemon:</p>
+            
+            <input type="radio" name="choice" value="Pistol">Pistol<br>
+            <input type="radio" name="choice" value="Steel Rod">Steel Rod<br>
+            <input type="radio" name="choice" value="Spanner">Spanner<br>
+            <input type="radio" name="choice" value="candlestick">Candlestick<br>
+            <input type="radio" name="choice" value="knife">Knife<br>
+            <br>
+        </form>
+        <form name="scarlet">
+            <p>Miss Rose:</p>
+            
+            <input type="radio" name="choice" value="Pistol">Pistol<br>
+            <input type="radio" name="choice" value="Steel Rod">Steel Rod<br>
+            <input type="radio" name="choice" value="Spanner">Spanner<br>
+            <input type="radio" name="choice" value="candlestick">Candlestick<br>
+            <input type="radio" name="choice" value="knife">Knife<br>
+            <br>
+        </form>
+        <form name="white">
+            <p>Mrs Blank:</p>
+            
+            <input type="radio" name="choice" value="Pistol">Pistol<br>
+            <input type="radio" name="choice" value="Steel Rod">Steel Rod<br>
+            <input type="radio" name="choice" value="Spanner">Spanner<br>
+            <input type="radio" name="choice" value="candlestick">Candlestick<br>
+            <input type="radio" name="choice" value="knife">Knife<br>
+            <br>
+            <input type="button" value="Check" onclick="processPage()">
+        </form>
     </div>
     <div class="w3-third w3-container">
       <p class="w3-border w3-padding-medium w3-padding-32 w3-center">AD</p>
