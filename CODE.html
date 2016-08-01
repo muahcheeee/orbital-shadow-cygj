@@ -1,113 +1,122 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-	<title>Result</title>
-</head>
-
-	<!-- this code fragment makes the background dark grey(color code #2F4F4F)
-	<style>
-	body  {
-		background-color: #2F4F4F;
-		}
-	</style>
--->
+<title>W3.CSS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-sidenav a,.w3-sidenav h4 {font-weight:bold}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
 
-<body>
-	<div class="w3-container w3-black">
-		<h1 align="center">Welcome to Minystery!</h1>
-	</div>
-	
-	<div id="header">
-		<h3 align="center">Minystery</h3>
-		<h3 align="center">Series of mini games of various genres</h3>
-		<h3 align="center">Play the game</h3>
-		<h3 align="center">Solve the mysteries</h3>
-	</div>
-	
-	<div id="detective">	
-		<div class="w3-container w3-section w3-black">
-			<h2 align="center">Detective</h2>
-		</div>
-		<div class="w3-container">
-			<div class="w3-third">
-				<h2 align="left">Level 1</h2>
-				<p align="left"><a href="1_bomb.html" align="center">The Gift</a></p>
-				<p align="left"><a href="1_ghost.html" align="center">The Ghost of Mrs Boddy</a></p>
-				<p align="left"><a href="1_hide.html" align="center">Hide & Seek</a></p>
-			</div>
-			
-			<div class="w3-third">
-				<h2 align="left">Level 2</h2>
-				<p align="left"><a href="2_murder.html" align="center">The Planned Murder</a></p>
-				<p align="left"><a href="2_music.html" align="center">The Unfortunate Music Party</a></p>
-				<p align="left"><a href="2_boddy.html" align="center">Death of Mr Boddy</a></p>
-			</div>
-			
-			<div class="w3-third">
-				<h2 align="left">Level 3</h2>
-				<p align="left"><a href="3_april.html" align="center">April Fools</a></p>
-				<p align="left"><a href="3_fire.html" align="center">The Fire</a></p>
-				<p align="left"><a href="3_film.html" align="center">Rolls of Film</a></p>
-			</div>
-		</div>
-	</div>
-	<div id="miscellaneous">
-		<div class="w3-container w3-section w3-blue">
-			<h2 align="center">Miscellaneous</h2>
-		</div>
-		<div class="w3-container">
-			<div class="w3-third">
-				<h2 align="left">Guessing</h2>
-				<p align="left"><a href="hangman.html" align="center">Hangman</a></p>
-				<p align="left"><a href="guessThatPhrase.html" align="center">Guess That Phrase</a></p>
-			</div>
-			
-			<div class="w3-third">
-				<h2 align="left">Mathematics</h2>
-				<p align="left"><a href="numberGame.html" align="center">Number Game</a></p>
-				<p align="left"><a href="problem.html" align="center">Problem Sums</a></p>
-			</div>
-			
-			<div class="w3-third">
-				<h2 align="left">Others</h2>
-				<p align="left"><a href="magicSquares.html" align="center">Magic Squares</a></p>
-			</div>
-		</div>
-	</div>
-	
-<!--
-		<div id="left">
-		<img src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-main_zps26d178c5.jpg"/>
-		<p>I am the angriest puppy in the world. This has been scientifically proven in several clinical trials.</p>
-		</div>
-		<div id="right">
-		<table>
-			<th colspan="3">Games</th>
-			<tr>
-				<td><img src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-1_zps5666b8e7.jpg"/></td>
-				<td><img src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-2_zps1539e6b2.jpg"/></td>
-				<td><img src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-3_zps4692eafa.png"/></td>
-			</tr>
-			<tr>
-				<td><img src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-4_zps63ff5aa8.jpg"/></td>
-				<td><img src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-5_zps0ee0d2c8.jpg"/></td>
-				<td><img src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-6_zpsc4450a60.jpg"/></td>
-			</tr>
-			<tr>
-				<td><img id="bottom_left" src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-7_zps26e8a8d9.jpg"/></td>
-				<td><img src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-8_zps9a1469be.jpg"></td>
-				<td><img id="bottom_right" src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-9_zps3bab7732.jpg"/></td>
-			</tr>
-		</table>
-		</div>
-		<div id="footer">
-			<div id="button">
-				<p>Send me an <span class="bold">e-mail</span>!</p>
-			</div>
-		</div>
-	-->
+<!-- Sidenav/menu -->
+<nav class="w3-sidenav w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidenav"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="img_avatar_g2.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4 class="w3-padding-0"><b>Minystery</b></h4>
+    <p class="w3-text-grey">Series of mini-games</p>
+  </div>
+  <a href="#" class="w3-padding w3-text-teal">Log In</a>
+  <a href="#" class="w3-padding">Detective</a>
+  <a href="#" class="w3-padding">Mathematics</a>
+  <a href="#" class="w3-padding">Guessing</a>
+  <a href="#" class="w3-padding">Miscellaneous</a>
+   
+</nav>
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header class="w3-container">
+    <a href="#"><img src="img_avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-opennav w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <h1><b>My Portfolio</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span>
+      <button class="w3-btn">ALL</button>
+      <button class="w3-btn w3-white"><i class="fa fa-diamond w3-margin-right"></i>Design</button>
+      <button class="w3-btn w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Photos</button>
+      <button class="w3-btn w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Art</button>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img_mountains.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img_lights.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="img_nature.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img_fjords.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img_lights.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="img_mountains.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidenav
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
 </body>
 </html>
