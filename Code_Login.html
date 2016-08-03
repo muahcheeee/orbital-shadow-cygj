@@ -8,7 +8,7 @@ if(isset($_POST['action']))
         $password = mysqli_real_escape_string($connection,$_POST['password']);
         $strSQL = mysqli_query($connection,"select name from users where email='".$email."' and password='".md5($password)."'");
         $Results = mysqli_fetch_array($strSQL);
-        if(count($Results)>=1)
+        if(count($Results)==1)
         {
             $message = $Results['name']." Login Sucessfully!!";
         }
@@ -29,7 +29,7 @@ if(isset($_POST['action']))
         {
             $message =  "Invalid email address please type a valid email!!";
         }
-        elseif($numResults>=1)
+        elseif($numResults==1)
         {
             $message = $email." Email already exist!!";
         }
